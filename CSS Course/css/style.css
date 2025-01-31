@@ -1,0 +1,50 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+
+    /* Same as above (Shorter way)
+    font: normal 16px Arial, Helvetica, sans-serif;*/
+
+    line-height: 1.6em;
+    margin: 0%;
+}
+
+h1{
+    color:rgb(32, 49, 90);
+    text-align: center;
+}
+h4{
+    color:rgb(32, 49, 90);
+    text-align: center;
+    line-height: 0.5em;
+}
+h3{
+    color:rgb(86, 107, 156);
+    padding-left: 10px;
+}
+
+/*to call class use .(class name) */
+.container{
+    width: 90%;
+    margin:auto
+}
+
+.box-1{ 
+    background-color: rgb(217, 243, 241);
+
+    border-right: 5px rgb(166, 216, 212) solid;
+}
+
+.box-2{ 
+    background-color: rgb(217, 224, 243);
+    border-left: 5px rgb(178, 195, 240) solid;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+    
+

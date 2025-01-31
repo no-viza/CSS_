@@ -1,0 +1,104 @@
+body{
+    background-color: bisque;
+    color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height:1.6em;
+    margin:0;
+}
+
+.container{
+    width:80%;
+    margin:auto;
+    overflow:hidden;
+}
+
+#main-header{
+    background-color: cadetblue;
+    color:white;
+}
+
+#nav-bar{
+    background-color: rgb(3, 77, 79);
+    color: azure;
+}
+
+#nav-bar ul{
+    padding: 0;
+    list-style: none;
+}
+
+#nav-bar li{
+    display: inline;
+}
+
+#nav-bar a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 15px;
+}
+
+#nav-bar a:hover{
+    color: bisque;
+}
+
+#showcase{
+    background-image: url(../doodle.jpg);
+    background-blend-mode: lighten;
+    background-position: left;
+    min-height: 300px;
+    /*min-height is used instead of height because min-height allows that 
+    height to be change as the size of the widow changes*/
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#showcase h1{
+    font-weight: 800;
+    color: brown;
+    font-size: 60px;
+    letter-spacing: 0.2em;
+    line-height: 1.2em;
+    padding-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+main{
+    float: left;
+    width: 70%;
+    padding: 0 30px;
+    box-sizing: border-box;
+}
+
+#sidebar{
+    float: right;
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+    background: rgb(238, 166, 77);
+    color: brown;
+    border: 1px brown solid;
+}
+
+#main-footer{
+    background: rgb(238, 166, 77);
+    color: brown;
+    border-top: 5px brown double;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+@media(max-width:600px){
+    #main{
+        width:100%;
+        float: none;
+    }
+    #sidebar{
+        width:100%;
+        float: none;
+    }
+}
+/*this makes the site responsive to different changes in size*/
